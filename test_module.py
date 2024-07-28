@@ -1,7 +1,6 @@
 import unittest
 import password_cracker
 
-
 class UnitTests(unittest.TestCase):
     def test_hash_1(self):
         actual = password_cracker.crack_sha1_hash(
